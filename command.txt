@@ -1,0 +1,17 @@
+
+
+arn:aws:secretsmanager:us-east-1:912202927742:secret:poc/redshift-KfGvtX
+
+ aws redshift-data execute-statement --region us-east-1 --secret arn:aws:secretsmanager:us-east-1:912202927742:secret:poc/redshift-KfGvtX --cluster-identifier wrapped-campaign-redshift --sql "select * from wrapped_data limit 1" --database dev
+{
+    "ClusterIdentifier": "wrapped-campaign-redshift",
+    "CreatedAt": "2022-12-09T00:48:25.062000+00:00",
+    "Database": "dev",
+    "Id": "6155f4ee-90db-4916-9287-8a255c9524df",
+    "SecretArn": "arn:aws:secretsmanager:us-east-1:912202927742:secret:poc/redshift-KfGvtX"
+}
+[cloudshell-user@ip-10-1-35-75 ~]$ 
+
+aws redshift-data get-statement-result --id e5b3c40d-c85a-4156-8a39-67f4867ffb58
+
+aws redshift-data get-statement-result --id 6155f4ee-90db-4916-9287-8a255c9524df

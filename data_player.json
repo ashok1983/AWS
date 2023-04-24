@@ -1,0 +1,587 @@
+{
+    "Records": [
+        [
+            {
+                "stringValue": "CONSOLE"
+            },
+            {
+                "stringValue": "XBOX"
+            },
+            {
+                "stringValue": "US"
+            },
+            {
+                "stringValue": "NA"
+            },
+            {
+                "stringValue": "account.b6983bd9e7344c87928462b4ded204b1"
+            },
+            {
+                "stringValue": "2018-01-10"
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "longValue": 0
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "stringValue": "no_kill"
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "doubleValue": 0.0
+            },
+            {
+                "doubleValue": 74.21
+            },
+            {
+                "doubleValue": 75.49
+            },
+            {
+                "doubleValue": 3.35
+            },
+            {
+                "doubleValue": 24.19
+            },
+            {
+                "doubleValue": 87.9
+            }
+        ]
+    ],
+    "ColumnMetadata": [
+        {
+            "isCaseSensitive": true,
+            "isCurrency": false,
+            "isSigned": false,
+            "label": "device",
+            "length": 0,
+            "name": "device",
+            "nullable": 0,
+            "precision": 20,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "varchar"
+        },
+        {
+            "isCaseSensitive": true,
+            "isCurrency": false,
+            "isSigned": false,
+            "label": "platform",
+            "length": 0,
+            "name": "platform",
+            "nullable": 0,
+            "precision": 20,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "varchar"
+        },
+        {
+            "isCaseSensitive": true,
+            "isCurrency": false,
+            "isSigned": false,
+            "label": "country",
+            "length": 0,
+            "name": "country",
+            "nullable": 0,
+            "precision": 20,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "varchar"
+        },
+        {
+            "isCaseSensitive": true,
+            "isCurrency": false,
+            "isSigned": false,
+            "label": "pubg_region",
+            "length": 0,
+            "name": "pubg_region",
+            "nullable": 0,
+            "precision": 20,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "varchar"
+        },
+        {
+            "isCaseSensitive": true,
+            "isCurrency": false,
+            "isSigned": false,
+            "label": "accountid",
+            "length": 0,
+            "name": "accountid",
+            "nullable": 0,
+            "precision": 40,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "varchar"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": false,
+            "label": "firstlogindate",
+            "length": 0,
+            "name": "firstlogindate",
+            "nullable": 0,
+            "precision": 13,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "date"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "total_ts",
+            "length": 0,
+            "name": "total_ts",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "official_ts",
+            "length": 0,
+            "name": "official_ts",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "rank_ts",
+            "length": 0,
+            "name": "rank_ts",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "total_cnt",
+            "length": 0,
+            "name": "total_cnt",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "official_cnt",
+            "length": 0,
+            "name": "official_cnt",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "rank_cnt",
+            "length": 0,
+            "name": "rank_cnt",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "total_kills",
+            "length": 0,
+            "name": "total_kills",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "official_kills",
+            "length": 0,
+            "name": "official_kills",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "rank_kills",
+            "length": 0,
+            "name": "rank_kills",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "total_assists",
+            "length": 0,
+            "name": "total_assists",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "official_assists",
+            "length": 0,
+            "name": "official_assists",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "rank_assists",
+            "length": 0,
+            "name": "rank_assists",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "total_chickens",
+            "length": 0,
+            "name": "total_chickens",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "official_chickens",
+            "length": 0,
+            "name": "official_chickens",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "rank_chickens",
+            "length": 0,
+            "name": "rank_chickens",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "headshot_cnt",
+            "length": 0,
+            "name": "headshot_cnt",
+            "nullable": 0,
+            "precision": 19,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "int8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "headshot_rate",
+            "length": 0,
+            "name": "headshot_rate",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": true,
+            "isCurrency": false,
+            "isSigned": false,
+            "label": "most_used_weapon",
+            "length": 0,
+            "name": "most_used_weapon",
+            "nullable": 0,
+            "precision": 20,
+            "scale": 0,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "varchar"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "avg_most_weapon_kills",
+            "length": 0,
+            "name": "avg_most_weapon_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "avg_kills",
+            "length": 0,
+            "name": "avg_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "avg_melee_kills",
+            "length": 0,
+            "name": "avg_melee_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "avg_throwable_kills",
+            "length": 0,
+            "name": "avg_throwable_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "avg_pickup_cnt",
+            "length": 0,
+            "name": "avg_pickup_cnt",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "percentile_avg_most_weapon_kills",
+            "length": 0,
+            "name": "percentile_avg_most_weapon_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "percentile_avg_kills",
+            "length": 0,
+            "name": "percentile_avg_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "percentile_avg_melee_kills",
+            "length": 0,
+            "name": "percentile_avg_melee_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "percentile_avg_throwable_kills",
+            "length": 0,
+            "name": "percentile_avg_throwable_kills",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        },
+        {
+            "isCaseSensitive": false,
+            "isCurrency": false,
+            "isSigned": true,
+            "label": "percentile_avg_pickup_cnt",
+            "length": 0,
+            "name": "percentile_avg_pickup_cnt",
+            "nullable": 0,
+            "precision": 17,
+            "scale": 17,
+            "schemaName": "public",
+            "tableName": "wrapped_data",
+            "typeName": "float8"
+        }
+    ],
+    "TotalNumRows": 1
+}
